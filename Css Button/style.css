@@ -1,0 +1,116 @@
+.button{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.text{
+    font-size: 3.0rem;
+    font-weight: 200;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.text-center{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-primay{
+    color: rgb(4, 4, 148);
+}
+.text-info{
+    color:  rgb(13, 204, 252);
+}
+
+/* main button css design */
+.btn{
+    border-radius:8px;
+    border: 0;
+    font-size: 1.0rem;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    letter-spacing: normal;
+    word-spacing: normal;
+    padding: 0.5rem 2rem;
+    text-align: center;
+
+}
+
+.btn:active{
+    transform: scalex(0.96);
+}
+
+.btn-primary{
+    background:#0B5ED7;
+    color: white;
+}
+
+
+.btn-primary:hover{
+    background:rgb(11,94,215);
+}
+
+
+.btn-secondary{
+    background:#6C757D;
+    color: white;
+}
+
+.btn-secondary:hover{
+    background: rgb(108,117,125);
+}
+
+.btn-success{
+    background: #198754;
+    color: white;
+}
+
+.btn-success:hover{
+    background:rgb(25,135,84);
+}
+
+.btn-info{
+    background: #0ECAF0;
+    color: white;
+}
+
+.btn-info:hover{
+    background: rgb(13, 204, 252);
+}
+
+.btn-danger{
+    background: #DC3545;
+    color: white;
+}
+
+.btn-danger:hover{
+    background: rgb(222, 70, 43)
+}
+
+.btn-warning{
+    background: #FECA2C;
+    color: black;
+}
+
+.btn-warning:hover{
+    background:rgb(254, 202, 44) ;
+}
+
+.btn-light{
+    background: #F8F9FA;
+    color: black;
+}
+.btn-light:hover{
+    background:rgb(248, 249, 250) ;
+}
+
+.btn-dark{
+    background: #212529;
+    color: white;
+}
+
+.btn-dark:hover{
+    background: rgb(33, 37, 41);
+}
