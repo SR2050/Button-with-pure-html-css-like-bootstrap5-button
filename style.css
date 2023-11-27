@@ -16,13 +16,17 @@
     justify-content: center;
 }
 
-.text-primay{
+.text-primary{
     color: rgb(4, 4, 148);
 }
 .text-info{
     color:  rgb(13, 204, 252);
 }
-
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
 /* main button css design */
 .btn{
     border-radius:8px;
@@ -113,4 +117,103 @@
 
 .btn-dark:hover{
     background: rgb(33, 37, 41);
+}
+
+
+.btn-outline-primary{
+    border: 2px solid #0B5ED7;
+    color:#0B5ED7;
+
+}
+.btn-outline-primary:hover{
+    background:#0B5ED7;
+    color: white;
+}
+
+.btn-outline-secondary{
+    border: 2px solid #6C757D;
+    color:black;
+
+}
+.btn-outline-secondary:hover{
+    background:#6C757D;
+}
+
+.btn-outline-secondary{
+    border: 2px solid #6C757D;
+    color:black;
+
+}
+.btn-outline-secondary:hover{
+    background:#6C757D;
+}
+
+.btn-outline-info{
+    border: 2px solid rgb(13, 204, 252);
+    color:rgb(13, 204,252);
+
+}
+.btn-outline-info:hover{
+    background:rgb(13, 204, 252);
+    color: #212529;
+}
+
+.btn-outline-success{
+    border: 2px solid rgb(25,135,84);
+    color:rgb(25,135,84);
+
+}
+.btn-outline-success:hover{
+    background:rgb(25,135,84);
+    color: white;
+}
+
+.btn-outline-danger{
+    border: 2px solid rgb(222, 70, 43);
+    color:rgb(222, 70, 43);
+
+}
+.btn-outline-danger:hover{
+    background:rgb(222, 70, 43);
+    color: white;
+}
+
+.btn-outline-warning{
+    border: 2px solid rgb(254, 202, 44);
+    color:rgb(254, 202, 44);
+
+}
+.btn-outline-warning:hover{
+    background:rgb(254, 202, 44);
+    color: black;
+}
+
+.btn-outline-warning{
+    border: 2px solid rgb(254, 202, 44);
+    color:rgb(254, 202, 44);
+
+}
+.btn-outline-warning:hover{
+    background:rgb(254, 202, 44);
+    color: black;
+}
+
+.btn-ouline-light{
+    color: #F8F9FA;
+    border: 2px solid #F8F9FA;
+}
+
+.btn-outline-light:hover{
+    background: #F8F9FA;
+    color: black;
+}
+
+.btn-outline-dark{
+    border: 2px solid #212529;
+    background: #212529;
+    color:white;
+}
+.btn-outline-dark:hover{
+    background-color: #212529;
+    color: white;
 }
